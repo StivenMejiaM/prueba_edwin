@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>document</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="portada">
+            <h2>Bienvenido</h2>
+            <div class="circulo">
+                <span class="letra" id="mayuscula"></span>
+            </div>
+            <p>Deja tu comentario</p>
+        </div>
+    </nav>
+    <section>
+        <div class="contenedor">
+            <h2>Bienvenido</h2>
+            <input type="text" id="mensaje">
+            <textarea name="" id="escribir" cols="30" rows="10" maxlength="200"  placeholder="Maximo 200 caracteres" onkeyup="almacenar(this);"></textarea>
+            <p id="charNum"></p>
+            <button class="boton"  id="boton1" oneclick="printm()">Enviar</button>
+            <d>
+                <p class="texto" id="comentario"></p>
+            </d>   
+        </div>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>

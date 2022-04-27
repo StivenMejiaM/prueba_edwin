@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    padding: 0;
+}
+.menu{
+    background-color: #85C1E9;
+    display: flex;
+    justify-content: center;
+}
+
+.portada{
+    margin: 20px;
+}
+
+.circulo{
+    width: 60px;
+    height: 60px;
+    background-color: #000080;
+    border-radius: 35px 35px 35px 35px;
+    margin-top: -63px;
+    margin-left: 120px;
+    display: flex;
+    box-shadow: 2px 2px 2px #fff;
+
+}
+
+.contenedor{
+    width: 450px;
+    margin: auto;
+    background: #85C1E9;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;  
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+section{
+    background-color: #000080;
+    display: flex;
+}
+
+#mensaje{
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+.letra{
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+textarea{
+    margin: 20px;
+    min-height: 400px;
+    max-height: 200px;
+    max-width: 360px;
+    border-radius: 7px;
+    border-bottom: 2px solid #2196F3;
+    box-shadow:9px 6px 6px #90A4AE;
+}
+
+.boton{
+    background-color: #fff;
+    width: 150px;
+    height: 20px;
+    border-radius: 12px 12px 12px 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 6px 6px 6px rgb(153, 142, 142);
+    margin-left: 120px;
+}
+
+h2{
+    text-shadow: 2px 2px 2px #fff;
+}
+
+.texto{
+    height: 10vh;
+    padding: 2px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+
+
